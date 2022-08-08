@@ -72,7 +72,7 @@ suite('Functional Tests', function () {
                 if (err) {
                     console.log(err)
                 }
-                assert.deepEqual(res.body, { "initNum": 1, "initUnit": "kg", "returnNum": "2.20462", "returnUnit": "lbs", "string": "1 kilograms converts to 2.20462 pounds" })
+                assert.deepEqual(res.body, { "initNum": 1, "initUnit": "kg", "returnNum": 2.20462, "returnUnit": "lbs", "string": "1 kilograms converts to 2.20462 pounds" })
                 done()
             })
     })
